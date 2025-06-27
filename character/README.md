@@ -45,3 +45,14 @@ Body:
 {
   "query": "...your query here..."
 }
+## 🔢 Get All Characters by Page
+
+This section includes queries to fetch paginated lists of characters using the `characters(page: Int)` field.
+
+Each query retrieves:
+- `id`
+- `name`
+- `status`
+- `image`
+
+Pages included: 1 to 4.
